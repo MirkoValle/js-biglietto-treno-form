@@ -1,0 +1,55 @@
+header {
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1200px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+li {
+    padding: 0 2rem;
+    cursor: pointer;
+}
+
+img {
+    width: 15rem;
+}
+
+main {
+    max-width: 1200px;
+    margin: auto;
+}
+
+main section {
+    margin: 0 20rem;
+    background-color: rgb(228, 228, 228);
+    padding: 1rem 1rem;
+}
+
+h2 {
+    margin: 0;
+    padding-bottom: 1rem;
+}
+
+main section div {
+    padding: .5rem 0;
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    max-width: 8rem;
+}
+
+section#info {
+    background-color: rgb(248, 248, 235);
+}
+
+section#info p:nth-child(4) {
+    color: red;
+}
